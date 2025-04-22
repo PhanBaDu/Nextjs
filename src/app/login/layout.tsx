@@ -1,3 +1,5 @@
+import Header from '@/components/header';
+
 interface LayoutLoginProps {
     children: React.ReactNode;
 }
@@ -5,7 +7,7 @@ interface LayoutLoginProps {
 export default function LayoutLogin({ children }: LayoutLoginProps) {
     return (
         <div>
-            <header>Header</header>
+            <Header data={'Components'} />
             {children}
         </div>
     );
